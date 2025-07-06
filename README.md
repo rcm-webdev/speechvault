@@ -22,10 +22,12 @@ SpeechVault is an AI-powered resource hub designed for speech pathologists worki
 **AI & ML:**
 
 <img src="https://img.shields.io/badge/anthropic-000000?style=for-the-badge&logo=anthropic&logoColor=white">
-: Anthropic APIs for language generation
 
-<img src="https://img.shields.io/badge/langchain-white?style=for-the-badge&logo=langchain&logoColor=#1C3C3C">
-: for document processing and conversation chains
+- Anthropic APIs for language generation
+
+<img src="https://img.shields.io/badge/langchain-white?style=for-the-badge&logo=langchain&logoColor=1C3C3C">
+
+- LangChain for document processing and conversation chains
 
 - Supabase Vector for embeddings storage
 
