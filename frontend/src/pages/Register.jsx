@@ -1,4 +1,4 @@
-import { MonitorSmartphoneIcon, LogInIcon } from "lucide-react";
+import { AudioWaveform, LogInIcon } from "lucide-react";
 import { useState } from "react";
 import { useNavigate } from "react-router";
 import api from "../lib/axios";
@@ -71,12 +71,12 @@ const validatePassword = (password) => {
         }
     }
     return (
-        <main className="max-w-sm mx-auto mt-10 p-8 bg-base-300 border-2 border-base-content/10 rounded-2xl shadow-md">
+        <main className="max-w-sm mx-auto mt-10 p-8 bg-base-100 border-2 border-base-content/10 rounded-2xl shadow-md">
             <div className="row justify-content-center">
                 <section className="col-6 mt-5 space-y-4">
                     {/* Logo */}
-                    <div className=" mx-auto w-20 h-20 bg-primary/10 rounded-lg flex items-center justify-center">
-                    <MonitorSmartphoneIcon className="size-15 text-primary"/>
+                    <div className=" mx-auto w-20 h-20 bg-accent/80 rounded-lg flex items-center justify-center">
+                    <AudioWaveform className="size-15 text-primary"/>
                     </div>
                     <form onSubmit={handleSubmit} className="space-y-4">
                         {/* Name */}
@@ -111,7 +111,7 @@ const validatePassword = (password) => {
                             <input type="password" className="input input-bordered" id="confirmPassword" placeholder="Confirm password" value={confirmPassword} onChange={onChange} autoComplete="new-password" />
                         </div>  
                         {/* Submit */}
-                        <button type="submit" className="btn btn-primary btn-outline w-full "> 
+                        <button type="submit" className="btn w-full "> 
                             <LogInIcon className="size-4 mr-2"/>
                             Register</button>
                     </form>
