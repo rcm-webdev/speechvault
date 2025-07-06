@@ -9,11 +9,11 @@
 }
 
 [data-theme="dark"] {
-  --bg-gradient: radial-gradient(125% 150% at 50% 10%, #0f172a 40%, #1e293b 100%);
+  --bg-gradient: radial-gradient(125% 150% at 50% 10%, #0f172a 40%, #1e293b 160%);
 }
 
 [data-theme="bumblebee"] {
-  --bg-gradient: radial-gradient(125% 150% at 50% 10%, #FFFF 40%, #FCC700 100%);
+  --bg-gradient: radial-gradient(125% 150% at 50% 10%, #FFFF 40%, #FCC700 160%);
 }
 
 .dynamic-bg {
