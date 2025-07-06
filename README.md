@@ -9,17 +9,23 @@ SpeechVault is an AI-powered resource hub designed for speech pathologists worki
 ## How It's Made
 
 **Frontend:**
+
 <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB"/>
 <img src="https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white"/>
 
 **Backend:**
+
 <img src="https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi"/>
 <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54"/>
 <img src="https://img.shields.io/badge/Supabase-000000?style=for-the-badge&logo=supabase&logoColor=3DD08A">
 
 **AI & ML:**
-<img src="https://img.shields.io/badge/anthropic-000000?style=for-the-badge&logo=anthropic&logoColor=white">: Anthropic APIs for language generation
-<img src="https://img.shields.io/badge/langchain-white?style=for-the-badge&logo=langchain&logoColor=#1C3C3C">: for document processing and conversation chains
+
+<img src="https://img.shields.io/badge/anthropic-000000?style=for-the-badge&logo=anthropic&logoColor=white">
+: Anthropic APIs for language generation
+
+<img src="https://img.shields.io/badge/langchain-white?style=for-the-badge&logo=langchain&logoColor=#1C3C3C">
+: for document processing and conversation chains
 
 - Supabase Vector for embeddings storage
 
