@@ -76,4 +76,4 @@ SpeechVault is an AI-powered resource hub designed for speech pathologists worki
 
 ---
 
-*This project represents the intersection of AI technology and clinical practice, allowing speech pathologists to deliver social communication therapy to students.*
+*This project represents the intersection of AI technology and clinical practice. Goal is for speech pathologists upload resources and interact with their resources to best help their students.*
